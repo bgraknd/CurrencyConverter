@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
 
         override fun onPostExecute(result: String?) {
             println(result)
-            Toast.makeText(this@MainActivity, "BOK", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@MainActivity, "Data Received", Toast.LENGTH_SHORT).show()
 
             try {
 
